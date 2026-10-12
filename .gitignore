@@ -1,0 +1,14 @@
+# codex 下指向 common 的联接（避免重复入库；用 add-codex-link.md 本地重建）
+codex/*
+!codex/.system/
+!codex/.system/**
+
+# 本地测试
+common/ceshi.md
+common/ceshi/
+common/ceshi1/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.bak
